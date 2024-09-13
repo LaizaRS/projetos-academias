@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.arrumando {  width: 263px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;}
+
+.arrumando select{
+  width: 100%;
+  padding: 10px;
+  border: rgba(0, 0, 107, 0.698);
+  background-color: rgba(0, 0, 107, 0.698);
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+}

@@ -1,0 +1,13 @@
+header .ajuste{
+  font-size: 25px;
+  margin: auto;
+}
+
+.ajuste {
+  color: white;
+  background-color: rgba(0, 0, 107, 0.698);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+}

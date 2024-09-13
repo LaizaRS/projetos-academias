@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.indice {
+  margin: 10px auto;
+  max-width: 900px;
+  color: rgba(0, 0, 107, 0.698);
+  font-size: 20px;
+}
+
+.onde {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px ;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 107, 0.151);
+}
+
+.onde p {
+  flex-grow: 1;
+  padding: 5px;
+}

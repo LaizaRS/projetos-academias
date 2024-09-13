@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.treino {
+  margin: 10px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid rgba(0, 0, 107, 0.151);
+}
+
+.parte-superior {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 107, 0.151);
+}
+
+.parte-superior button {
+  all: initial;
+  padding-top: 5px;
+}
+
+.mesma-linha{
+  display: flex;
+  align-items: center;
+}
+
+.mesma-linha p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.parte-inferior{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+
+ input {
+  border: rgba(0, 0, 107, 0.698);
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: rgba(0, 0, 107, 0.698);
+  color: white;
+  text-align: center; 
+  line-height: 40px; 
+  -moz-appearance: textfield;
+}
+
+
+ input::-webkit-inner-spin-button,
+ input::-webkit-outer-spin-button {
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+.numero input:focus {
+  outline: none; 
+}
+

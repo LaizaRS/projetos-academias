@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pai {
+  margin: 5px;
+  border: 1px solid red;
+  min-width: 550px;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+ .cabecalho {
+  text-align: start;
+  margin-left: 10px;
+
+}
+
+.tres-colunas {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.coluna-direita {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.imagem-treino {
+  width: 100px;
+  height: 66.531px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
